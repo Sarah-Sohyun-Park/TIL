@@ -41,7 +41,7 @@
 - git diff - git log 히스토리 한줄로 알려줌
 - git push _repo name_ _local branch_ - 올리기 (일반적으로 git push origin master)
 - git remote -v - 원격저장소 목록 확인
-- git remote 
+- git remote add origin "_주소_" - 원격 저장소에 새로 등록
     
 # git 생성하기
 1. [Repository 생성에서 NEW 클릭](https://github.com/)
@@ -54,13 +54,13 @@
 4. 처음 설정시 사용자 이름, 메일 등록 - git config --global user.name "_github 이름_", git config --global user.email "_이메일_" 설정
 5. git add . 로 특정 관리 버전을 만들고
 6. git commit 또는 git commit -m - "_제목_" 으로 커밋 확정시킴
-7. git remote add origin {_주소_}
+7. git remote add origin "_주소_" 또는 git remote add origin {_주소_}
 
 # local 2 정리
 1. 새로운 로컬에 clone 연계할 파일 생성 및 git bash 오픈(vscode도 가능)
 2. git init 으로 폴더 관리 대상으로 만들기
 3. 처음 설정시 사용자 이름, 메일 등록 - git config --global user.name "_github 이름_", git config --global user.email "_이메일_" 설정
-4. git clone "_git주소_"
+4. git clone "_주소_" 또는 git clone {_주소_}
 5. 이후 add commit push remote 사용
 
 
