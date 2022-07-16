@@ -24,22 +24,24 @@
 7.  처음 git commit 할 때는 메일, 사용자 이름 등록
    
 # 기본 언어
-1. touch 파일 생성 명령어
-2. ls 폴더에 어떤 목록이 있는지 알림
-3. cd 클릭해 폴더로 들어가는 것, 단 cd .. 는 상위 폴더로 나가기
-4. start 파일 열기
-5. code 코드 열기
-6. rm 파일 제거
-7. rm -rf 폴더 제거
-8. ./ 작업하고 있는 폴더
-9.  ../ 현재 폴더의 상위 폴더
-
-10. git add working directory 에서 staging area 갈 때 
-11. git commit staging area 에서 repository 갈 때
-12. git commit -m "_제목_" 은 메시지 같이 등록하는 옵션
-13. git status staging area 상태를 알려줌
-14. git log repository 상태 알려줌
-15. git diff git log 히스토리 한줄로 알려줌
+- touch - 파일 생성 명령어
+- ls - 폴더에 어떤 목록이 있는지 알림
+- cd - 클릭해 폴더로 들어가는 것, 단 cd .. 는 상위 폴더로 나가기
+- start - 파일 열기
+- code - 코드 열기
+- rm - 파일 제거
+- rm -rf - 폴더 제거
+- ./ - 작업하고 있는 폴더
+- ../ - 현재 폴더의 상위 폴더
+- git add - working directory 에서 staging area 갈 때 
+- git commit - staging area 에서 repository 갈 때
+- git commit -m - "_제목_" 은 메시지 같이 등록하는 옵션
+- git status - staging area 상태를 알려줌
+- git log - repository 상태 알려줌
+- git diff - git log 히스토리 한줄로 알려줌
+- git push _repo name_ _local branch_ - 올리기 (일반적으로 git push origin master)
+- git remote -v - 원격저장소 목록 확인
+- git remote 
     
 # git 생성하기
 1. [Repository 생성에서 NEW 클릭](https://github.com/)
@@ -50,15 +52,16 @@
 2. git init 으로 폴더 관리 대상으로 만들기
 3. README.md 꼭 대문자로 설정
 4. 처음 설정시 사용자 이름, 메일 등록 - git config --global user.name "_github 이름_", git config --global user.email "_이메일_" 설정
-5. 
-
+5. git add . 로 특정 관리 버전을 만들고
+6. git commit 또는 git commit -m - "_제목_" 으로 커밋 확정시킴
+7. git remote add origin {_주소_}
 
 # local 2 정리
 1. 새로운 로컬에 clone 연계할 파일 생성 및 git bash 오픈(vscode도 가능)
 2. git init 으로 폴더 관리 대상으로 만들기
 3. 처음 설정시 사용자 이름, 메일 등록 - git config --global user.name "_github 이름_", git config --global user.email "_이메일_" 설정
 4. git clone "_git주소_"
-5. 이후 add commit push 사용
+5. 이후 add commit push remote 사용
 
 
 
