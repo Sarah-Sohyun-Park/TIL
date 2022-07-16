@@ -16,7 +16,7 @@
 
 # 기본정보
 1. gui는 그래픽, cli는 명령어로 작동
-2. 이곳에서 상대경로를 많이 사용
+2. 이곳에서 상대경로를 많이 사용 (ex../Git/../파일명 )
 3. git init 안의 모든 폴더는 git 관리대상
 4. git hub에 있는 내용이 중심이 됨
 5. git의 3가지 영역은 working directory/ staging area/ repository
@@ -38,7 +38,7 @@
 - ./ - 작업하고 있는 폴더
 - ../ - 현재 폴더의 상위 폴더
 - git add - working directory 에서 staging area 갈 때 
-- git commit - staging area 에서 repository 갈 때, 나갈 때 insert, 이름, :wq 또는 :wq!
+- git commit - staging area 에서 repository 갈 때, 나갈 때 insert, 이름, esc/, :wq 또는 :wq!
 - git commit -m - "_제목_" 은 메시지 같이 등록하는 옵션
 - git status - staging area 상태를 알려줌
 - git log - repository 상태 알려줌
@@ -57,16 +57,17 @@
 2. git init 으로 폴더 관리 대상으로 만들기
 3. README.md 꼭 대문자로 설정(꼭 로컬 파일에서 생성)
 4. 처음 설정시 사용자 이름, 메일 등록 - git config --global user.name "_github 이름_", git config --global user.email "_이메일_" 설정 
-5. git add . 로 특정 관리 버전을 만들기 (또는 git add "_파일명_")
-6. git commit 또는 git commit -m - "_제목_" 으로 커밋 확정시킴
-7. git branch -m master
-8. git remote add origin "_주소_" 또는 git remote add origin {_주소_}
-9. 주소 잘못 설정 시 git remote set url origin 사용
-10. git push origin master
+5. git config --list로 이름 메일 확인
+6. git add . 로 특정 관리 버전을 만들기 (또는 git add "_파일명_")
+7. git commit 또는 git commit -m - "_제목_" 으로 커밋 확정시킴
+8. git branch -m master
+9. git remote add origin "_주소_" 또는 git remote add origin {_주소_}
+10. 주소 잘못 설정 시 git remote set url origin 사용
+11. git push origin master
 
-11. 이후 재 사용시 git clone "주소"
-12. git push origin master
-13. 파일 추가시 git remote add origin "_주소_"
+12. 이후 재 사용시 git clone "주소"
+13. git push origin master
+14. 파일 추가시 git remote add origin "_주소_"
 
 # local 2 정리
 1. 새로운 로컬에 clone 연계할 파일 생성 및 git bash 오픈(vscode도 가능)
