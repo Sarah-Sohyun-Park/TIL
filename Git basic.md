@@ -36,7 +36,7 @@
 - rm - 파일 제거
 - rm -rf - 폴더 제거
 - ./ - 작업하고 있는 폴더
-- ../ - 현재 폴더의 상위 폴더
+- ../ - 현재 폴더의 상위 폴더 
 - git add - working directory 에서 staging area 갈 때 
 - git commit - staging area 에서 repository 갈 때, 나갈 때 insert, 이름, esc/, :wq 또는 :wq!
 - git commit -m - "_제목_" 은 메시지 같이 등록하는 옵션
