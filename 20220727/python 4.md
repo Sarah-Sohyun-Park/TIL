@@ -48,7 +48,7 @@
 
 ## OOP 속성
 
-- 속성(return 안쓰네,,)
+- 속성(return 안쓰네,,함수만,,)
   
   1. 클래스의 객체들이 가질 데이터
   
@@ -151,7 +151,7 @@ isinstance(object, classinfo)
 
 **인스턴스 자식클래스 부모클래스 순으로 탐색**
 
-인스턴스에 부모클래스에 있는 함구를 재정의 해서 설정하면 재정의 한 것으로 도출 가능(super후 재추출도 가능)
+인스턴스에 부모클래스에 있는 함수를 재정의 해서 설정하면 재정의 한 것으로 도출 가능(super후 재추출도 가능)
 
 - 캡슐화
 1. public access modifier(언더바 없음)
@@ -165,6 +165,8 @@ isinstance(object, classinfo)
       **getter에는 @property (변수 값 읽기)**
 
      **setter에는 @변수.setter 사용 (변수 값 설정)**
+
+--> protect private 둘 다 사용가능
 
 ## 디버깅
 
