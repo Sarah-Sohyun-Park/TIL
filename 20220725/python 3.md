@@ -1,14 +1,10 @@
 # python 3
 
-
-
 # 메서드
 
 - 함수의 연장선이다.
 
 - 데이터구조. 메서드의 형식으로 자료를 정리할 수 있다.
-
-
 
 ## 1. str(불변)
 
@@ -31,30 +27,26 @@ word = 'word' 를 추가하였을 때 word는 새로운 주소를 얻게 되고 
   s.isupper() - 대문자 여부 확인
   
   s.istitle() - 첫번째 문자만 대문자, 나머지는 소문자임을 확인
-  
-  
-  
+
   s.replace(old, new, [count]) - old를 모두  new로 바꾸며 count를 부가적으로 추가시에 처음 n번째까지만 변환
-  
-  s.strip([chars]) - 공백 또는 특정 문자 제거하기
-  
+
+  **s.strip([chars])** - 공백 또는 특정 문자 제거하기
+
   s.rstrip(), s.lstrip()은 각각 오른쪽 왼쪽 공백만 없애줌
-  
+
   s.split([chars]) - [chars]를 기준으로 나눔
-  
-  'seperator'.join([iterable]) - seperator로 구분자 합침
-  
+
+  **'seperator'.join([iterable]) **- seperator로 구분자 합침
+
   s.capitalize() - 문장의 첫문자 대문자로, 나머지 소문자로
-  
+
   s.title() -첫문자 대문자로 나머지 소문자로
-  
+
   s.upper() - 모두 대문자로 변경
-  
+
   s.lower() - 모두 소문자로 변경
-  
+
   s.swapcase() -대문자 소문자 반대로
-  
-  
 
 - 숫자
   
@@ -64,15 +56,13 @@ word = 'word' 를 추가하였을 때 word는 새로운 주소를 얻게 되고 
   
   isnumeric() - 로마숫자, 동그라미안의 숫자 포함
 
-
-
 ## 2. list(가변)
 
 - list에 쓰는 메서드
 
     l.append(x) - x를 리스트 마지막 항목에 추가
 
-    l.insert(i, x) - 인덱스 i 에 x를 넣으면 된다.
+    **l.insert(i, x)** - 인덱스 i 에 x를 넣으면 된다.
 
     l.remove(x) - 리스트의 가장 왼쪽에 있는 x를 제거()없을 경우 error
 
@@ -95,8 +85,6 @@ word = 'word' 를 추가하였을 때 word는 새로운 주소를 얻게 되고 
     l.clear() - 내부의 모든 값 삭제
 
     del은 리스트 자체 삭제
-
-
 
 ## 3. tuple(불변)
 
@@ -153,8 +141,6 @@ word = 'word' 를 추가하였을 때 word는 새로운 주소를 얻게 되고 
   d.pop(k, v) - 키의 벨류 반환 후 삭제, 없으면 v 반환
   
   d.update
-
-
 
 ## 6. 복사
 
