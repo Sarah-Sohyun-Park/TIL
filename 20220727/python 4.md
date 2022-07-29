@@ -102,6 +102,8 @@
 호출시 첫 인자로 (self)를 받음
 
 - **매직 매서드**
+  
+  init str eq gt 
 
 - 클래스 메서드
 
@@ -145,7 +147,7 @@
 
 isinstance(object, classinfo)
 
-**issubclass(class, classinfo)**
+issubclass(class, classinfo)
 
 - 다형성
 

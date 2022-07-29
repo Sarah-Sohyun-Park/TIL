@@ -27,25 +27,25 @@ word = 'word' 를 추가하였을 때 word는 새로운 주소를 얻게 되고 
   s.isupper() - 대문자 여부 확인
   
   s.istitle() - 첫번째 문자만 대문자, 나머지는 소문자임을 확인
-
+  
   s.replace(old, new, [count]) - old를 모두  new로 바꾸며 count를 부가적으로 추가시에 처음 n번째까지만 변환
-
+  
   **s.strip([chars])** - 공백 또는 특정 문자 제거하기
-
+  
   s.rstrip(), s.lstrip()은 각각 오른쪽 왼쪽 공백만 없애줌
-
+  
   s.split([chars]) - [chars]를 기준으로 나눔
-
+  
   **'seperator'.join([iterable]) **- seperator로 구분자 합침
-
+  
   s.capitalize() - 문장의 첫문자 대문자로, 나머지 소문자로
-
+  
   s.title() -첫문자 대문자로 나머지 소문자로
-
+  
   s.upper() - 모두 대문자로 변경
-
+  
   s.lower() - 모두 소문자로 변경
-
+  
   s.swapcase() -대문자 소문자 반대로
 
 - 숫자

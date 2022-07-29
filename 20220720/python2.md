@@ -16,8 +16,6 @@
 
 **만약 첫번째 if 조건이 참으로 나온다면 다음 조건까지 가지 않는다.**
 
-
-
 - 중첩 조건문
 
     if 조건:
@@ -34,8 +32,6 @@
 
         실행코드
 
-
-
 - 삼항연산자 (조건식 표현)
 
 조건식 표현__true인 경우의 값__ if 조건 else __flase인 경우 값
@@ -45,8 +41,6 @@ result = '홀수' if num % 2 else '짝수'
 ```
 
 - 왼쪽참 오른쪽거짓
-  
-  
 
 ## 2. 반복문
 
@@ -65,7 +59,7 @@ while 조건:
 
 - for문
 
-``` python
+```python
 for i in range: 
 for idx in range(len(chars)): 
     print(chars[idx])
@@ -77,9 +71,6 @@ for idx in range(len(chars)):
 2. 순회가능 string tuple list range 사용 가능
 
 3. 순회 시 마지막 값까지 접근해야함
-
-
-
 - 딕셔너리 순회
 
 ```python
@@ -115,8 +106,6 @@ john 80
 eric 90
 ```
 
-
-
 - enumerate 순회
 
 ```python
@@ -133,8 +122,6 @@ list((enumerate(members, **start = 1**)))
 
 => [(1, '민수'), (2, '영희'), (3, '철수')] - 튜
 ```
-
-
 
 - list comprehensive
 
@@ -156,8 +143,6 @@ print(cubic_list)
 => [1, 8, 27]
 ```
 
-
-
 - dictionary comprehensive
 
 ```python
@@ -171,8 +156,6 @@ cubic_dict = {number: number ** 3 for number in range(1, 4) if 조건}
 
 print(cubic_list)
 ```
-
-
 
 - 반복 제어
 
@@ -194,8 +177,6 @@ print(cubic_list)
 
     거의 쓸 일 없지만 자리 채우기 용으로 쓸 수도
 
-
-
 ## 3. 함수
 
 추상화와 분해를 위해 사용
@@ -215,8 +196,6 @@ def funtion_name((parameter ex) x, y):
 
     이 때 return 은 한번만 사용 가능하며 return a, b 형태의 튜플로 사용 가능하다.
 
-
-
     positional arguments - def add(x, y) 일때 add(2, 3) 을 하면 자동으로 x = 2, y = 3
 
     keyword arguments - def add(x, y) 일때 add(x = 2, y = 3) 으로 값을 지정해주는     것 , add(2, y = 3도 가능)
@@ -229,23 +208,17 @@ def funtion_name((parameter ex) x, y):
 
     단, y를 다른 값으로 변경 가능
 
-
-
 (parameter 과 argument 구분)
 
 print는 쉼표로 여러 값 출력 가능 print('you', 'need', 'python')
 
 패킹, 언패킹(튜플도 가능)
 
-
-
 - 가변인자
 
     def add(*args) 또는 def add(a, b, *args)
 
     *args 가변인자 여러값 튜플로 생성
-
-
 
 - 가변 키워드 인자
 
@@ -257,22 +230,16 @@ print는 쉼표로 여러 값 출력 가능 print('you', 'need', 'python')
 
             print(f'{key} : {values}')
 
-
-
     family(**father** = '아부지', **mother**: '어무니')
 
     father : 아부지
     mother : 어무니
-
-
 
     def print_family_name(father, mother, **pets)
 
     def print_family_name(*parents, **pets)
 
     family('아부지',  '어무니', dog = '멍멍이', cat = '냥냥이')
-
-
 
 - scope
 
@@ -281,8 +248,6 @@ print는 쉼표로 여러 값 출력 가능 print('you', 'need', 'python')
 - 함수 응용
 
 local에서 global **변수**로 global 변수 변환 가능
-
-
 
 map(int, input().split()) =map(funtion, iterable)
 
